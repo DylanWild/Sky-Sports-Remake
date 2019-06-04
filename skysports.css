@@ -1,0 +1,449 @@
+@import url('https://fonts.googleapis.com/css?family=Acme|Heebo');
+@import url('https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet');
+@import url("https://fonts.googleapis.com/css?family=Rubik");
+* {
+
+    box-sizing: border-box
+}
+
+.container {
+    top: 0;
+    left: 0;
+    bottom: 0%;
+    margin: 0;
+    padding: 0;
+    height: 300%;
+    width: 100%;
+    background-color:#dfdde2;
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.sky {
+    background-color: #122c66;
+    width:28%;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    position: absolute;
+    font-family: 'Rubik', sans-serif;
+    /* font-family: url(/sky/sky\ \(1\).zip); */
+    top:0%;
+    bottom: 10%;
+    font-size: 150%;
+    text-align: right;
+    font-weight: 900;
+
+}
+
+
+#topnavGet{
+position: absolute;
+right: 45%;
+top: 30%;
+font-size: 50%;
+font-family: 'Heebo', sans-serif;
+color: white;
+text-decoration: none;
+}
+
+#topnavSign{
+    position: absolute;
+    right: 39%;
+    top: 20%;
+    font-size: 50%;
+    font-family: 'Heebo', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+#topnavSearch{
+    color: white;
+    
+}
+.search{
+    background-color: #d61526;
+    position: absolute;
+    top: 20%;
+    right: 25.5%;
+    height: 40%;
+    width: 10%;
+    color: white;
+    font-size: 50%;
+    border-width: thin;
+    border-color: white;
+    border-radius: 6%;
+}
+::placeholder{
+    color: white;
+}
+
+.topnav {
+    /* font-family: 'Heebo', sans-serif; */
+    background-color: #d61526;
+    top: 0;
+    bottom: 0%;
+    margin: 0;
+    padding: 0;
+    height: 3.3%;
+    width: 100%;
+    position: absolute;
+    font-size: 200%;
+    right: 0%;
+    left: 0%;
+    color: white;
+    box-shadow: 0.1px 1px 50px 0.1px black;
+    
+    
+}
+#topnavSports{
+   position: absolute;
+   left: 28.5%;
+   top: 0%;
+   font-size: 150%
+}
+
+.mainnav {
+    text-align: center;
+    top: 3.3%;
+    bottom: 0%;
+    margin: 0;
+    padding: 0;
+    height: 1.66%;
+    width: 100%;
+    position: absolute;
+    font-size: 100%;
+    right: 0%;
+    left: 0%;
+    
+    background-color: white
+    
+}
+
+.hometoMore{
+    text-align: left;
+    top: 29%;
+    bottom: 0%;
+    margin: 0;
+    padding: 0;
+    height: 10%;
+    width: 50%;
+    position: absolute;
+    
+    
+}
+
+#watchSky{
+    top:12%;
+    position: absolute;
+    right:2%
+}
+
+#mainNavHome{
+    position: absolute;
+    left: 50%
+}
+
+#mainNavHome:hover{
+    position: absolute;
+    left: 50%;
+    background-color: lightgray;
+    /* width: 5%; */
+    
+}
+
+
+
+#mainNavSports{
+    position: absolute;
+    left: 58%;
+    text-decoration: none;
+}
+#mainNavScore{
+    position: absolute;
+    left: 65%;
+    color: black; 
+    text-decoration: none;
+}
+#mainNavVideo{
+    position: absolute; 
+    left: 78%;  
+    color: black;
+    text-decoration: none;
+}
+#mainNavTV{
+    position: absolute;
+    left:85%;
+    color: black;
+    text-decoration: none;
+}
+#mainNavBet{
+    position: absolute;
+    left: 90%;
+    width: 20%;
+    color: black;
+    text-decoration: none;
+}
+#mainNavGames{
+    position: absolute;
+    left: 99%;
+    color: black;
+    text-decoration: none;
+}
+#mainNavMore{
+    position: absolute; 
+    left: 110%;
+}
+
+#watchSky{
+    position: absolute;
+    font-size: 100%;
+    top: 2%
+}
+
+.button{
+     background-color:#d61526;
+    border:none;
+    margin: 4px 2px;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    padding: 10px 3px;
+    font-size: 100%;
+    position: relative;
+    right: 320%;
+    top: 12%;
+    border-radius: 5%;
+}
+
+.mainStory{
+    position: absolute;
+    left: 25%;
+    top: 6%;
+    background-color: white;
+    width: 50%;
+    height: 12%;
+    /* text-align: right; */
+    background-image: url(cricket.png);
+    background-repeat: no-repeat;
+    border: solid;
+    border-color:#e5e4e7;
+    box-shadow: 0.1px 1px 5px 0.1px black;
+    
+    
+      
+}
+
+.mainStory:hover{
+    position: absolute;
+    left: 25%;
+    top: 6%;
+    background-color: white;
+    width: 50%;
+    height: 12%;
+    /* text-align: right; */
+    background-image: url(cricket.gif);
+    background-size:67% 100%;
+    background-repeat: no-repeat;
+    border: solid;
+    border-color: white
+}
+
+#msCricket{
+    color: blue;
+    font-size: 100%;
+    right: 26%;
+    top: 20%;
+    position: absolute;
+    font-weight: 10;
+}
+
+#msFirstLine{
+    color: black;
+    font-size: 140%;
+    right: 3%;
+    top: 30%;
+    position: absolute;
+}
+
+#msSecondLine{
+    color: black;
+    font-size: 115%;
+    right: 1%;
+    top: 45%;
+    position: absolute;
+}
+#msThirdLine{
+    color: black;
+    font-size: 90%;
+    right: 23%;
+    top: 60%;
+    position: absolute;
+}
+
+.pepKlopp{
+    position: absolute;
+    background-color: white;
+    top: 19%;
+    left: 25%;
+    height: 10%;
+    background-image: url(pepklopp.png);
+    background-repeat: no-repeat;
+    width: 15%;
+    border: solid;
+    border-color:#e5e4e7;
+    box-shadow: 0.1px 0.1px 5px 0.1px black;
+}
+
+.pepKlopp:hover{
+    position: absolute;
+    background-color: white;
+    top: 19%;
+    left: 25%;
+    height: 10%;
+    background-image: url(pep.gif);
+    background-repeat: no-repeat;
+    width: 15%;
+    border: solid;
+    border-color: white;
+    background-size: 100% 60.3%;
+}
+
+#leftTopStory{
+    position:absolute;
+    top: 65%;
+    color: blue;
+    font-size: 80%;
+    font-weight: 50;
+    left: 8%;
+}
+#pepKlopp{
+    position: absolute;
+    top: 70%;
+    font-size: 150%;
+    font-weight: 60;
+    left: 8%;
+}
+
+.llorente{
+    position: absolute;
+    background-color: white;
+    top: 19%;
+    left: 42.5%;
+    height: 10%;
+    background-image: url(llorente.png);
+    background-repeat: no-repeat;
+    width: 15%;
+    border: solid;
+    border-color:#e5e4e7;
+    box-shadow: 0.1px 0.1px 5px 0.1px black;
+}
+.llorente:hover{
+    position: absolute;
+    background-color: white;
+    top: 19%;
+    left: 42.5%;
+    height: 10%;
+    background-image: url(llorente.gif);
+    background-repeat: no-repeat;
+    width: 15%;
+    border: solid;
+    border-color:white;
+    background-size: 100% 60.3%;
+}
+
+#middleTopStory{
+    position:absolute;
+    top: 65%;
+    color: blue;
+    font-size: 80%;
+    font-weight: 50;
+    left: 8%;
+}
+#llorenteQuote{
+    position: absolute;
+    top: 70%;
+    font-size: 150%;
+    font-weight: 60;
+    left: 8%;
+}
+
+.ole{
+    position: absolute;
+    background-color: white;
+    top: 19%;
+    right: 25%;
+    height: 10%;
+    background-image: url(ole.png);
+    background-repeat: no-repeat;
+    width: 15%;
+    border: solid;
+    background-size: 100% 60.3%;
+    border-color:#e5e4e7;
+    box-shadow: 0.1px 0.1px 5px 0.1px black;
+} 
+
+.ole:hover{
+    position: absolute;
+    background-image: url(olegif-size_restricted.gif);
+    top: 19%;
+    right: 25%;
+    height: 10%;
+    background-size: 100% 60.3%;
+    background-repeat: no-repeat;
+    width: 15%;
+    border: solid;
+    border-color :white;
+}
+
+#rightTopStory{
+    position:absolute;
+    top: 65%;
+    color: blue;
+    font-size: 80%;
+    font-weight: 50;
+    left: 8%;
+}
+#oleQuote{
+    position: absolute;
+    top: 70%;
+    font-size: 150%;
+    font-weight: 60;
+    left: 8%
+}
+
+@keyframes boyos{
+    0% {
+        background-image: url(jeff.jpg);
+    }
+    25% {
+        background-image: url(phil.jpg);
+    }
+    50% {
+        background-image: url(merse.jpg);
+    }
+    75% {
+        background-image: url(charlie.jpg)
+    }
+    100% {
+        background-image: url(priceboost.jpg);
+    }
+}
+
+.theBoys{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+animation-name: boyos;
+animation-duration: 2s;
+height: 100%;
+background-repeat: no-repeat;
+width: 40%;
+text-align: center;
+color: yellow;
+font-size: 200%;
+animation-iteration-count: infinite;
+font-weight: 900;
+background-size: 100% 10%;
+text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
